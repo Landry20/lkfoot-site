@@ -1,0 +1,13 @@
+{
+  "name": "lkfoot-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site de présentation de LK FOOTBALL + API d'inscription / connexion (base Neon)",
+  "scripts": {
+    "migrate": "node scripts/migrate.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4"
+  },
+  "engines": { "node": ">=18" }
+}
